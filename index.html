@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MIVLO | Soluções Audiovisuais e Desenvolvimento Digital</title>
+    <title>MIVLO | Soluções Audiovisuais & Web</title>
     <meta name="description" content="A MIVLO é um hub modular de Soluções Audiovisuais e Desenvolvimento Digital. Vídeo para eventos e sistemas sob medida.">
     
     <!-- SEO & Open Graph -->
@@ -13,13 +13,13 @@
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-       
+    <!--Envio de email-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <!-- Icons (Lucide) -->
     <script src="https://unpkg.com/lucide@latest"></script>
-
     <!-- Tailwind CSS Config -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -57,7 +57,7 @@
         <div class="container mx-auto px-6 h-20 flex items-center justify-between">
             <!-- Logo -->
             <a href="#" class="flex items-center gap-2 z-50 group">
-                <span class="font-display font-bold text-xl text-white tracking-tight">MIVLO</span>
+                <img src="img/LOGO MAIS GROSSINHA 02.png" alt="MIVLO Logo" class="h-8 md:h-10 w-auto object-contain transition-transform duration-500 hover:scale-105">
             </a>
 
             <!-- Desktop Nav -->
@@ -436,7 +436,7 @@
             </div>
         </section> -->
 
-  <section id="pacotes" class="py-16 md:py-24 relative overflow-hidden">
+    <!-- <section id="pacotes" class="py-16 md:py-24 relative overflow-hidden">
             <div class="container mx-auto px-6">
                 <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-6 mb-10 md:mb-14 reveal">
                     <div>
@@ -447,10 +447,10 @@
                     </div>
                 </div>
 
-                <div class="grid grid-cols-1 md:grid-cols-3 auto-rows-[auto] gap-4 md:gap-5">
+                <div class="grid grid-cols-1 md:grid-cols-3 auto-rows-[auto] gap-4 md:gap-5"> -->
                     
                     <!-- Experiencia Completa -->
-                    <div class="md:col-span-2 md:row-span-2 glass-panel p-6 md:p-8 flex flex-col justify-between relative group reveal hover:border-[#d946ef]/50">
+                    <!-- <div class="md:col-span-2 md:row-span-2 glass-panel p-6 md:p-8 flex flex-col justify-between relative group reveal hover:border-[#d946ef]/50">
                         <div class="absolute inset-0 grid-bg opacity-20 group-hover:opacity-30 transition-opacity"></div>
                         <div class="relative z-10">
                             <span class="font-mono text-[10px] font-semibold text-[#d946ef] mb-2 block">PACOTE 03</span>
@@ -466,13 +466,13 @@
                             </ul>
                         </div>
                         <div class="relative z-10 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 border-t border-white/10 pt-4 mt-auto">
-                             <span class="text-2xl font-bold text-white">R$ 2.400</span>
+                             <span class="text-2xl font-bold text-white">R$ 1.750</span>
                              <a href="#contato" class="btn-amber text-xs px-6 py-2">Selecionar</a>
                         </div>
-                    </div>
+                    </div> -->
 
                     <!-- Conteudo -->
-                    <div class="glass-panel p-6 flex flex-col justify-between relative group reveal delay-100 hover:border-[#d946ef]/50">
+                    <!-- <div class="glass-panel p-6 flex flex-col justify-between relative group reveal delay-100 hover:border-[#d946ef]/50">
                         <div class="relative z-10">
                             <span class="font-mono text-[10px] font-semibold text-[#d946ef] mb-2 block">PACOTE 02</span>
                             <h3 class="text-lg md:text-xl font-display font-extrabold text-white mb-1">Conteúdo</h3>
@@ -486,12 +486,12 @@
                             </ul>
                         </div>
                         <div class="relative z-10 flex items-center justify-between border-t border-white/10 pt-3 mt-auto">
-                            <span class="text-lg font-bold text-white">R$ 1.750</span>
+                            <span class="text-lg font-bold text-white">R$ 1.250</span>
                         </div>
-                    </div>
+                    </div> -->
 
                     <!-- Registro -->
-                    <div class="glass-panel p-6 flex flex-col justify-between relative group reveal delay-200 hover:border-[#d946ef]/50">
+                    <!-- <div class="glass-panel p-6 flex flex-col justify-between relative group reveal delay-200 hover:border-[#d946ef]/50">
                         <div class="relative z-10">
                             <span class="font-mono text-[10px] font-semibold text-[#d946ef] mb-2 block">PACOTE 01</span>
                             <h3 class="text-lg md:text-xl font-display font-extrabold text-white mb-1">Registro</h3>
@@ -504,12 +504,12 @@
                             </ul>
                         </div>
                         <div class="relative z-10 flex items-center justify-between border-t border-white/10 pt-3 mt-auto">
-                            <span class="text-lg font-bold text-white">R$ 1.250</span>
+                            <span class="text-lg font-bold text-white">R$ 500</span>
                         </div>
                     </div>
-                    
+                     -->
                     <!-- Bottom Banner -->
-                    <div class="md:col-span-3 glass-panel p-6 flex flex-col md:flex-row md:items-center justify-between relative group reveal delay-300">
+                    <!-- <div class="md:col-span-3 glass-panel p-6 flex flex-col md:flex-row md:items-center justify-between relative group reveal delay-300">
                         <div class="relative z-10 md:w-2/3">
                             <span class="font-mono text-[10px] font-semibold text-[#d946ef] mb-1 block">O RESULTADO FINAL</span>
                             <h3 class="text-lg md:text-xl font-display font-bold text-white">Um único investimento que continua rendendo.</h3>
@@ -521,7 +521,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
 
         <section id="objecoes" class="py-16 lg:py-24 relative">
@@ -610,38 +610,38 @@
                     </p>
                 </div>
 
-                <form class="w-full text-left reveal delay-100 max-w-3xl mx-auto" onsubmit="event.preventDefault();">
+                <form method="post"  id="contato_form" class="w-full text-left reveal delay-100 max-w-3xl mx-auto">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 mb-4 md:mb-6">
                         <div class="space-y-2">
-                            <label class="sr-only" for="empresa">Sua empresa</label>
-                            <input type="text" id="empresa" placeholder="Sua empresa" class="w-full bg-brand-muted/30 border border-brand-border/60 rounded-2xl px-4 py-3 md:px-5 md:py-4 text-sm md:text-base text-white placeholder:text-white/40 focus:outline-none focus:border-brand-amber focus:ring-1 focus:ring-brand-amber transition-all shadow-inner">
+                            <label class="sr-only" for="nome">Como posso te chamar?</label>
+                            <input type="text" id="nome" placeholder="Como posso te chamar?" class="w-full bg-brand-muted/30 border border-brand-border/60 rounded-2xl px-4 py-3 md:px-5 md:py-4 text-sm md:text-base text-white placeholder:text-white/40 focus:outline-none focus:border-brand-amber focus:ring-1 focus:ring-brand-amber transition-all shadow-inner" required>
                         </div>
                         <div class="space-y-2">
-                            <label class="sr-only" for="email">E-mail corporativo</label>
-                            <input type="email" id="email" placeholder="E-mail corporativo" class="w-full bg-brand-muted/30 border border-brand-border/60 rounded-2xl px-4 py-3 md:px-5 md:py-4 text-sm md:text-base text-white placeholder:text-white/40 focus:outline-none focus:border-brand-amber focus:ring-1 focus:ring-brand-amber transition-all shadow-inner">
+                            <label class="sr-only" for="email">E-mail</label>
+                            <input type="email" id="email" placeholder="E-mail" class="w-full bg-brand-muted/30 border border-brand-border/60 rounded-2xl px-4 py-3 md:px-5 md:py-4 text-sm md:text-base text-white placeholder:text-white/40 focus:outline-none focus:border-brand-amber focus:ring-1 focus:ring-brand-amber transition-all shadow-inner" required>
                         </div>
-                        <div class="space-y-2 relative">
-                            <label class="sr-only" for="frente">Qual Pacote te atende melhor?</label>
-                            <select id="frente" class="w-full bg-brand-muted/30 border border-brand-border/60 rounded-2xl px-4 py-3 md:px-5 md:py-4 text-sm md:text-base text-white/80 appearance-none focus:outline-none focus:border-brand-amber focus:ring-1 focus:ring-brand-amber transition-all cursor-pointer font-light shadow-inner">
+                        <!-- <div class="space-y-2 relative">
+                            <label class="sr-only" for="pacote">Qual Pacote te atende melhor?</label>
+                            <select id="pacote" class="w-full bg-brand-muted/30 border border-brand-border/60 rounded-2xl px-4 py-3 md:px-5 md:py-4 text-sm md:text-base text-white/80 appearance-none focus:outline-none focus:border-brand-amber focus:ring-1 focus:ring-brand-amber transition-all cursor-pointer font-light shadow-inner">
                                 <option value="" disabled selected hidden>Qual Pacote te atende melhor?</option>
-                                <option value="media" class="bg-brand-muted text-white">Pacote 01: Registro (R$ 1.250)</option>
-                                <option value="tech" class="bg-brand-muted text-white">Pacote 02: Conteúdo (R$ 1.750)</option>
-                                <option value="ambas" class="bg-brand-muted text-white">Pacote 03: Experiência Completa (R$ 2.400)</option>
-                                <option value="tech" class="bg-brand-muted text-white">MIVLO Tech (Desenvolvimento WEB)</option>
+                                <option value="registro" class="bg-brand-muted text-white">Pacote 01: Registro (R$ 500)</option>
+                                <option value="conteudo" class="bg-brand-muted text-white">Pacote 02: Conteúdo (R$ 1.250)</option>
+                                <option value="experiência" class="bg-brand-muted text-white">Pacote 03: Experiência Completa (R$ 1.750)</option>
+                                <option value="web" class="bg-brand-muted text-white">MIVLO Tech (Desenvolvimento WEB)</option>
                             </select>
                             <i data-lucide="chevron-down" class="absolute right-4 md:right-5 top-1/2 -translate-y-1/2 w-4 h-4 text-brand-amber pointer-events-none"></i>
-                        </div>
+                        </div> -->
                         <div class="space-y-2">
-                            <label class="sr-only" for="prazo">Prazo ou data-alvo</label>
-                            <input type="text" id="prazo" placeholder="Prazo ou data-alvo" class="w-full bg-brand-muted/30 border border-brand-border/60 rounded-2xl px-4 py-3 md:px-5 md:py-4 text-sm md:text-base text-white placeholder:text-white/40 focus:outline-none focus:border-brand-amber focus:ring-1 focus:ring-brand-amber transition-all shadow-inner">
+                            <label class="sr-only" for="contato">Telefone para contato</label>
+                            <input type="tel" id="contato" placeholder="Telefone para contato" class="w-full bg-brand-muted/30 border border-brand-border/60 rounded-2xl px-4 py-3 md:px-5 md:py-4 text-sm md:text-base text-white placeholder:text-white/40 focus:outline-none focus:border-brand-amber focus:ring-1 focus:ring-brand-amber transition-all shadow-inner">
                         </div>
                     </div>
                     <div class="mb-8 md:mb-10">
-                        <label class="sr-only" for="escopo">Escopo do projeto e observações</label>
-                        <textarea id="escopo" rows="4" placeholder="Escopo do projeto e observações" class="w-full bg-brand-muted/30 border border-brand-border/60 rounded-2xl px-4 py-3 md:px-5 md:py-4 text-sm md:text-base text-white placeholder:text-white/40 focus:outline-none focus:border-brand-amber focus:ring-1 focus:ring-brand-amber transition-all resize-none shadow-inner"></textarea>
+                        <label class="sr-only" for="mensagem">Escopo do projeto e observações</label>
+                        <textarea id="mensagem" rows="4" placeholder="Escopo do projeto e observações" class="w-full bg-brand-muted/30 border border-brand-border/60 rounded-2xl px-4 py-3 md:px-5 md:py-4 text-sm md:text-base text-white placeholder:text-white/40 focus:outline-none focus:border-brand-amber focus:ring-1 focus:ring-brand-amber transition-all resize-none shadow-inner" required></textarea>
                     </div>
                     <div class="text-center">
-                        <button type="submit" class="btn-amber text-base md:text-lg w-full sm:w-auto px-10">
+                        <button id="submit_button" type="submit" class="btn-amber text-base md:text-lg w-full sm:w-auto px-10">
                             Solicitar proposta
                             <i data-lucide="arrow-right" class="w-4 h-4 md:w-5 md:h-5 ml-1"></i>
                         </button>
@@ -656,8 +656,9 @@
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8 text-center md:text-left">
                 <div>
                     <div class="flex items-center justify-center md:justify-start gap-2 mb-3">
-                        <div class="w-6 h-6 rounded bg-gradient-to-br from-[#d946ef] to-[#8b5cf6] flex items-center justify-center font-bold text-white text-xs">M</div>
-                        <span class="font-display font-bold text-white text-base">MIVLO</span>
+                        <!-- <div class="w-6 h-6 rounded bg-gradient-to-br from-[#d946ef] to-[#8b5cf6] flex items-center justify-center font-bold text-white text-xs">M</div> -->
+                        <!-- <span class="font-display font-bold text-white text-base">MIVLO</span> -->
+                        <img src="img/LOGO MAIS GROSSINHA 02.png" alt="MIVLO Logo" class="h-7 md:h-9 w-auto object-contain transition-transform duration-500 hover:scale-105">
                     </div>
                     <p class="text-xs font-medium text-brand-sand/60 mb-1">Fotografia • Filmagem • Conteúdo</p>
                     <p class="text-[11px] text-brand-sand/40 leading-relaxed">Nós registramos a história do seu projeto para que ela continue sendo contada.</p>
@@ -687,7 +688,8 @@
             </div>
         </div>
     </footer>
-
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script src="js/script.js"></script>
+    <script src="js/envioEmail.js"></script>
 </body>
 </html>
