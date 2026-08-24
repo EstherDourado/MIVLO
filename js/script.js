@@ -10,6 +10,7 @@ let isMenuOpen = false;
 function toggleMenu() {
     isMenuOpen = !isMenuOpen;
     if(isMenuOpen) {
+        window.scrollTo(0, 0);
         mobileMenu.classList.remove('translate-x-full');
         document.body.style.overflow = 'hidden'; // Prevent background scroll
         mobileMenuBtn.innerHTML = '<i data-lucide="x"></i>';

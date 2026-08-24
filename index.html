@@ -82,14 +82,22 @@
             </button>
         </div>
 
-        <!-- Mobile Nav Menu -->
-        <div class="fixed inset-0 bg-brand-graphite/98 backdrop-blur-xl z-40 transform translate-x-full transition-transform duration-300 flex flex-col justify-center items-center gap-8" id="mobile-menu">
-            <a href="#manifesto" class="font-display text-xl font-bold text-white mobile-link">Manifesto</a>
-            <a href="#frentes" class="font-display text-xl font-bold text-white mobile-link">Frentes</a>
-            <a href="#metodo" class="font-display text-xl font-bold text-white mobile-link">Método</a>
-            <a href="#objecoes" class="font-display text-xl font-bold text-white mobile-link">Objeções</a>
-            <a href="#contato" class="font-display text-xl font-bold text-white mobile-link">Contato</a>
-            <a href="#contato" class="btn-amber mt-6 px-8 py-4 text-lg w-3/4 max-w-sm mobile-link">Solicitar proposta</a>
+         <!-- Mobile Nav Menu (Movido para fora do header para corrigir o bug de corte/ocultação no scroll) -->
+        <div class="fixed inset-0 bg-brand-graphite/98 backdrop-blur-xl z-40 transform translate-x-full transition-transform duration-300 flex flex-col justify-start pt-28 pb-10 items-center gap-6 overflow-y-auto" id="mobile-menu">
+            
+            <!-- [AJUSTE SOLICITADO]: Tamanho das fontes reduzido de text-3xl para text-xl. 
+                Adicionado também alinhamento responsivo (overflow-y-auto, justify-start e pt-28) 
+                para que o menu nunca fique "preso" no topo em celulares muito pequenos. -->
+            <a href="#manifesto" class="font-display text-xl font-bold text-white hover:text-brand-amber transition-colors mobile-link">Manifesto</a>
+            <a href="#frentes" class="font-display text-xl font-bold text-white hover:text-brand-amber transition-colors mobile-link">Frentes</a>
+            <a href="#metodo" class="font-display text-xl font-bold text-white hover:text-brand-amber transition-colors mobile-link">Método</a>
+            <a href="#objecoes" class="font-display text-xl font-bold text-white hover:text-brand-amber transition-colors mobile-link">Objeções</a>
+            <a href="#contato" class="font-display text-xl font-bold text-white hover:text-brand-amber transition-colors mobile-link">Contato</a>
+            
+            <!-- Linha divisória de respiro visual -->
+            <div class="w-12 h-px bg-white/10 my-2"></div>
+            
+            <a href="#contato" class="btn-amber px-8 py-3 text-base w-[80%] max-w-[280px] mobile-link flex justify-center text-center">Solicitar proposta</a>
         </div>
     </header>
 
